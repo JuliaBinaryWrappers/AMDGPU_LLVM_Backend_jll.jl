@@ -1,6 +1,6 @@
 name = "AMDGPU_LLVM_Backend_jll"
 uuid = "cc5c0156-bd05-5a77-8a68-bb0aafb29019"
-version = "22.1.7+0"
+version = "22.1.8+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
