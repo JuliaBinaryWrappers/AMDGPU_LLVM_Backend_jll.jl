@@ -1,29 +1,29 @@
 [[AMDGPU_LLVM_Backend]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e8a11e699ee24eff3b929c05d161cd8e13567e1f"
+git-tree-sha1 = "8e8ba388a9a6199559de2f96994d5207a4a07b80"
 libc = "glibc"
 os = "linux"
 
     [[AMDGPU_LLVM_Backend.download]]
-    sha256 = "32bbcba365bd976c1e594844dbd7b60eb412481341d0335b1fda4f34bb60d161"
-    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v22.1.8+1/AMDGPU_LLVM_Backend.v22.1.8.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "fe454f86311772b6028f3d1e36bad33f91adead6feb9ef8cff2330e102a55d55"
+    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v22.1.8+2/AMDGPU_LLVM_Backend.v22.1.8.aarch64-linux-gnu-cxx11.tar.gz"
 [[AMDGPU_LLVM_Backend]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "862914707bd9427e6d322b85bbfc2c405102e30c"
+git-tree-sha1 = "e21d5c5990876ecba40cb3d23b0b6fc6126709ec"
 libc = "glibc"
 os = "linux"
 
     [[AMDGPU_LLVM_Backend.download]]
-    sha256 = "8071d8e8c6d1d638497e9098bd74bdb07ca7a78312c782046dfdf32dee324c57"
-    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v22.1.8+1/AMDGPU_LLVM_Backend.v22.1.8.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "44cc0479fcbb831acc256a6b1684cfc37a5f6a7368620fedee6a421fa9ff4211"
+    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v22.1.8+2/AMDGPU_LLVM_Backend.v22.1.8.x86_64-linux-gnu-cxx11.tar.gz"
 [[AMDGPU_LLVM_Backend]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9a4c13469dcb6e11230e05cbcf27f87ed99dc6b9"
+git-tree-sha1 = "578b36cac4eb31b77226d65946ba921d70e2b52d"
 os = "windows"
 
     [[AMDGPU_LLVM_Backend.download]]
-    sha256 = "d2aa188a95afaea74eb3c56295b15074c3521c11cb81be6c1473cfa3522b856b"
-    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v22.1.8+1/AMDGPU_LLVM_Backend.v22.1.8.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "e16f211ce92857819b039ac4403110e158ba03efcace7b4be2284de4efe418b7"
+    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v22.1.8+2/AMDGPU_LLVM_Backend.v22.1.8.x86_64-w64-mingw32-cxx11.tar.gz"
