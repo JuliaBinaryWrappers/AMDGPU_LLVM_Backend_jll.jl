@@ -1,29 +1,29 @@
 [[AMDGPU_LLVM_Backend]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3b3e23c9b58a5dbe752deb9e278499e06a21dbe5"
+git-tree-sha1 = "9a866d84dadaa108c6c15b0651609a90d4169279"
 libc = "glibc"
 os = "linux"
 
     [[AMDGPU_LLVM_Backend.download]]
-    sha256 = "52aeed92006cfc7c4c59b554f69f7d97c2a35407c2bdda18110e36b4a895f028"
-    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+2/AMDGPU_LLVM_Backend.v23.1.1.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "b9fe3de130157266c266c4bfe8c3a2b225d9708435a96cf95921f46780f01fe1"
+    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+3/AMDGPU_LLVM_Backend.v23.1.1.aarch64-linux-gnu-cxx11.tar.gz"
 [[AMDGPU_LLVM_Backend]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f2fb495d8f3990d285adb45b0376936f4a4c0e85"
+git-tree-sha1 = "d1c1649fd93aa6a08a548b11ad5ae66ba450971c"
 libc = "glibc"
 os = "linux"
 
     [[AMDGPU_LLVM_Backend.download]]
-    sha256 = "cc696c640e40b70528eeaaaa9e65eb986bad51b3cc787843b6d5414be3dcbdae"
-    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+2/AMDGPU_LLVM_Backend.v23.1.1.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "aae3041f3a6c5257c73e6160aec1553758de629885876205b0053e1f1271a5ac"
+    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+3/AMDGPU_LLVM_Backend.v23.1.1.x86_64-linux-gnu-cxx11.tar.gz"
 [[AMDGPU_LLVM_Backend]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "d0c1efc25695395eed6f64071c0d86662034ebf5"
+git-tree-sha1 = "f2ed31596a11c658d275a312bcd2823d663ee54d"
 os = "windows"
 
     [[AMDGPU_LLVM_Backend.download]]
-    sha256 = "420e4e0baa285909ef003d2a9fb4cce3d4f389b0e98c5dd5f7a14b54df0301b7"
-    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+2/AMDGPU_LLVM_Backend.v23.1.1.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "487872ffd69d8817bffa125fc9dec534671f356ad9298742d3497d38823684e6"
+    url = "https://github.com/JuliaBinaryWrappers/AMDGPU_LLVM_Backend_jll.jl/releases/download/AMDGPU_LLVM_Backend-v23.1.1+3/AMDGPU_LLVM_Backend.v23.1.1.x86_64-w64-mingw32-cxx11.tar.gz"
