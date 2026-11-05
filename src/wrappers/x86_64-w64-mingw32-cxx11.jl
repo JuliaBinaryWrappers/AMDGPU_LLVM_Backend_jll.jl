@@ -3,19 +3,19 @@ export bitcode_path, libamdgpu
 
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("AMDGPU_LLVM_Backend")
-JLLWrappers.@declare_file_product(bitcode_path)
 JLLWrappers.@declare_library_product(libamdgpu, "libamdgpu.dll")
+JLLWrappers.@declare_file_product(bitcode_path)
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
-    JLLWrappers.@init_file_product(
-        bitcode_path,
-        "amdgcn\\bitcode",
-    )
-
     JLLWrappers.@init_library_product(
         libamdgpu,
         "bin\\libamdgpu.dll",
         nothing,
+    )
+
+    JLLWrappers.@init_file_product(
+        bitcode_path,
+        "amdgcn\\bitcode",
     )
 
     JLLWrappers.@generate_init_footer()
