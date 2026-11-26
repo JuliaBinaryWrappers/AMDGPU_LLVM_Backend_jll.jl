@@ -1,4 +1,4 @@
-version = "23.1.6+0"
+version = "23.1.6+1"
 name = "AMDGPU_LLVM_Backend_jll"
 uuid = "cc5c0156-bd05-5a77-8a68-bb0aafb29019"
 
@@ -12,4 +12,5 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 Libdl = "< 0.0.1, 1"
 julia = "1.6"
 JLLWrappers = "1.7.0"
+Zlib_jll = "1.2.11"
 Artifacts = "< 0.0.1, 1"
